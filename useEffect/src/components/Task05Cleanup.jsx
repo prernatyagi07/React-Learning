@@ -1,22 +1,22 @@
 import { useEffect } from "react";
 
 function Task05Cleanup() {
-    useEffect(() => {
+  useEffect(() => {
     console.log("Effect Started");
 
-return() => {
-    console.log("Cleanup");
-};
-}, []);
+    return () => {
+      console.log("Cleanup");
+    };
+  }, []);
 
-return(
+  return (
     <>
-    <div>
+      <div>
         <hr />
         <h2>Task 5: Cleanup</h2>
-    </div>
+      </div>
     </>
-);
+  );
 }
 
 export default Task05Cleanup;
