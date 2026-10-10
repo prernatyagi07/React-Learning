@@ -3,6 +3,7 @@ import DestructingProps from "./Props/DestructuringProps";
 import DefaultProps from "./Props/DefaultProps";
 import ArrayProps from "./Props/ArrayProps";
 import StudentChild from "./Props/StudentChild";
+import ConditionalRendering from "./Props/ConditionalRendering";
 
 function App() {
   const handleStudentName = (name) => {
@@ -27,6 +28,7 @@ function App() {
       <ArrayProps skills={["HTML", "CSS", "React"]} />
 
       <StudentChild getStudentName={handleStudentName} />
+      <ConditionalRendering />
     </>
   );
 }

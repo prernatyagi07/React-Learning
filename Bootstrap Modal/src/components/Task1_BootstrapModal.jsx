@@ -10,7 +10,7 @@ function BootstrapModal() {
       </button>
 
       {show && (
-        <div className="modal d-block">
+        <div className="modal d-block bg-success">
           <div className="modal-dialog">
             <div className="modal-content">
               <div className="modal-header">
